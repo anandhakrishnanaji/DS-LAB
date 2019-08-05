@@ -29,7 +29,7 @@ int main(void){
   }
   else{
     ssort(arr,size);
-    pos=binrec(arr,0,size,key);
+    pos=binrec(arr,0,size-1,key);
   }
   
   if(pos!=-1)
